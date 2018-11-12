@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/css/common.css">
+	<link rel="stylesheet" href="src/css/green.css">
+	<style>
+		div {
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="part">
+		<input type="checkbox">
+		<input type="checkbox" checked>
+		<input type="radio" name="iCheck">
+		<input type="radio" name="iCheck" checked>
+	</div>
+
+	<div class="part">
+		<input type="checkbox" class="small">
+		<input type="checkbox" class="small" checked>
+		<input type="radio" class="small" name="iCheck">
+		<input type="radio" class="small" name="iCheck" checked>
+	</div>
+
+	<div class="part1">
+		<input type="checkbox">
+		<input type="checkbox" checked>
+		<input type="radio" class="icheck1" name="iCheck1">
+		<input type="radio" class="icheck1" name="iCheck1" checked>
+	</div>
+
+	<div class="part2">
+		<input type="checkbox" class="icheck2" name="iCheck2">
+		<input type="radio" class="icheck2" name="iCheck2">
+		<input type="checkbox" class="icheck2 small" name="iCheck2">
+		<input type="radio" class="icheck2 small" name="iCheck2">
+		<br />
+		<input type="button" id="checked" value="选中">
+		<input type="button" id="unchecked" value="不选中">
+		<!-- <input type="button" id="toggle" value="toggle"> -->
+		<input type="button" id="disable" value="置灰">
+		<input type="button" id="enable" value="不置灰">
+		<input type="button" id="update" value="更新">
+		<input type="button" id="destroy" value="摧毁">
+	</div>
+
+	<script src="src/js/jquery-1.8.2.min.js"></script>
+	<script src="src/js/icheck.js"></script>
+	<script src="src/js/index.js"></script>
+</body>
+</html>
